@@ -1,16 +1,20 @@
-## Hi there 👋
+# Alex Jardine
 
-<!--
-**Krmzyn/Krmzyn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Web developer and technical SEO in Toronto. I design, build and grow websites for businesses and agencies: Next.js and React builds, WordPress and Shopify work, site migrations and the technical SEO that keeps rankings through a launch.
 
-Here are some ideas to get you started:
+- Case studies: [alexjardinedigital.com/work](https://alexjardinedigital.com/work)
+- Working with agencies: [alexjardinedigital.com/agencies](https://alexjardinedigital.com/agencies)
+- Resume: [alexjardinedigital.com/resume](https://alexjardinedigital.com/resume)
+- Studio: [jardinestudio.com](https://jardinestudio.com)
+- [alex@jardinestudio.com](mailto:alex@jardinestudio.com) · [LinkedIn](https://www.linkedin.com/in/alex-jardine)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Public repos
+
+- **[domain-looker](https://github.com/Krmzyn/domain-looker)**: bulk domain pre-checker using official RDAP data. React, TypeScript, Express.
+- **[gpu-flight-recorder](https://github.com/Krmzyn/gpu-flight-recorder)**: Windows diagnostic recorder for NVIDIA GPU and display freezes. Python, Tkinter.
+
+Client and product code (Silktrace, the Jardine Studio platform, Lead Finder) is private. The case studies explain the architecture and the decisions.
+
+## Stack
+
+Next.js · React · TypeScript · Node.js · PostgreSQL · WordPress · Shopify · Webflow · GA4 · Search Console · Playwright · Vercel
