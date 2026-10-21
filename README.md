@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/masthead-mobile.png">
-  <img src="assets/masthead-desktop.png" alt="Alex Jardine, written in particles by the WebGL engine on my portfolio. Web development and technical SEO, Toronto." width="100%">
+  <img src="assets/masthead-desktop.png" alt="Alex Jardine, written in particles by the WebGL engine on my portfolio." width="100%">
 </picture>
 
 **Web developer and technical SEO in Toronto.** I build production websites and full-stack applications, and the search engineering that keeps them crawlable, indexable and fast. I run [Jardine Studio](https://jardinestudio.com).
@@ -32,13 +32,13 @@ A focused Next.js site for a Greater Toronto Area renovation contractor, built a
 
 [Case study](https://alexjardinedigital.com/work/bb) · [Live site](https://bbspecialtycontractors.com/)
 
-## Technical SEO, built in
+## Technical SEO
 
-Search visibility is decided in templates, routes and the release process, so I treat it as part of the build. [Jardine Studio](https://jardinestudio.com) is the production platform where that runs every day.
+Most of my technical SEO work happens in code: templates, routing, structured data and release checks. The clearest example is my own studio site, [jardinestudio.com](https://jardinestudio.com).
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/page-guard-mobile.png">
-  <img src="assets/page-guard-desktop.png" alt="Page guard flow. Build main and the pull request. Load every sitemap URL in Chromium and record title, description, canonical, robots, headings, internal links, JSON-LD, page copy, JavaScript bytes and layout shift. Compare: fail on any lost signal or regression, report additions, and report only when the pull request is labelled content-change." width="100%">
+  <img src="assets/page-guard-desktop.png" alt="Page guard: build main and the pull request. Load every sitemap URL in Chromium and record title, description, canonical, robots, headings, internal links, JSON-LD, page copy, JavaScript bytes and layout shift. Compare: fail on any lost signal or regression, report additions, and report only when the pull request is labelled content-change." width="100%">
 </picture>
 
 **Page guard** runs on pull requests to the studio site. It fails the check when something search engines or readers rely on is lost:
@@ -54,7 +54,7 @@ Search visibility is decided in templates, routes and the release process, so I 
 
 Added pages, links and copy are reported, never failed. An intentional copy change is labelled `content-change`, and the guard reports the differences instead of blocking.
 
-The same platform publishes a JSON-LD graph with stable `@id`s, sitemap dates taken from content revisions rather than build time, 53 content-driven redirects and `410 Gone` for retired articles.
+The site also publishes a JSON-LD graph with stable `@id`s, sitemap dates taken from content revisions rather than build time, 53 content-driven redirects and `410 Gone` for retired articles.
 
 [Platform case study](https://alexjardinedigital.com/work/jardine) · [Live site](https://jardinestudio.com)
 
@@ -79,7 +79,7 @@ Both are MIT licensed, with tests, CI and documentation.
 - **[Domain Looker](https://github.com/Krmzyn/domain-looker)**: bulk domain pre-checks against official RDAP data, with an offline demo mode. React, TypeScript and Express.
 - **[GPU Flight Recorder](https://github.com/Krmzyn/gpu-flight-recorder)**: keeps evidence when a Windows display freezes, with a heartbeat that never waits on the GPU. Python, public beta.
 
-## Creative engineering
+## WebGL
 
 - **[Portfolio particle engine](https://alexjardinedigital.com/writing/how-this-site-works)**: the WebGL2 field behind the name above. Up to 80,000 points morph on the GPU, transform feedback lets an interrupted transition continue from where the particles were drawn, and shapes keep clear of live page text. [See it live](https://alexjardinedigital.com).
 
