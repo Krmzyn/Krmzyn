@@ -11,7 +11,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/client-work-mobile.png">
-  <img src="assets/client-work-desktop.png" alt="Home pages of two shipped client websites: Lambert Architectural Lighting and The Black Salt Room." width="100%">
+  <img src="assets/client-work-desktop.png" alt="Home pages of three shipped client websites: Lambert Architectural Lighting, The Black Salt Room and B&B Specialty Contractors." width="100%">
 </picture>
 
 ### Lambert Architectural Lighting
@@ -25,6 +25,12 @@ A 46 MB catalogue PDF rebuilt as a specification website for an architectural li
 Creative direction, content and a Next.js site for a Toronto breathwork and yoga studio. Offering pages carry the chosen practice into a validated inquiry API, with LocalBusiness, Service, FAQ and article structured data. The launch build scored 100 in all four Lighthouse lab categories.
 
 [Case study](https://alexjardinedigital.com/work/salt) · [Live site](https://www.blacksaltroom.com/)
+
+### B&B Specialty Contractors
+
+A focused Next.js site for a Greater Toronto Area renovation contractor, built around its services, service area and one route to a free estimate. A single service list feeds every page, with page-level metadata and HomeAndConstructionBusiness structured data. The owner reports 17 jobs from the site so far.
+
+[Case study](https://alexjardinedigital.com/work/bb) · [Live site](https://bbspecialtycontractors.com/)
 
 ## Technical SEO, built in
 
@@ -66,10 +72,15 @@ An internal Python, FastAPI and React application for business discovery, eviden
 
 [Product and architecture](https://alexjardinedigital.com/work/lead)
 
-## Tools and experiments
+## Open source
+
+Both are MIT licensed, with tests, CI and documentation.
 
 - **[Domain Looker](https://github.com/Krmzyn/domain-looker)**: bulk domain pre-checks against official RDAP data, with an offline demo mode. React, TypeScript and Express.
 - **[GPU Flight Recorder](https://github.com/Krmzyn/gpu-flight-recorder)**: keeps evidence when a Windows display freezes, with a heartbeat that never waits on the GPU. Python, public beta.
+
+## Creative engineering
+
 - **[Portfolio particle engine](https://alexjardinedigital.com/writing/how-this-site-works)**: the WebGL2 field behind the name above. Up to 80,000 points morph on the GPU, transform feedback lets an interrupted transition continue from where the particles were drawn, and shapes keep clear of live page text. [See it live](https://alexjardinedigital.com).
 
 <sub>Client and commercial application source is private. The case studies cover the architecture and the decisions behind it.</sub>
