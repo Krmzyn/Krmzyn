@@ -7,6 +7,14 @@
 
 [Portfolio](https://alexjardinedigital.com) · [Case studies](https://alexjardinedigital.com/work) · [Working with agencies](https://alexjardinedigital.com/agencies) · [LinkedIn](https://www.linkedin.com/in/alex-jardine/)
 
+## Stack
+
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, WebGL and three.js
+- **Backend and data:** Node.js, Express, Python, FastAPI, PostgreSQL, Drizzle, Redis
+- **CMS and platforms:** WordPress, Shopify, Webflow
+- **Search:** technical SEO, structured data, Core Web Vitals, Search Console, GA4
+- **Testing and delivery:** Playwright, Vitest, GitHub Actions, Vercel
+
 ## Client websites
 
 <picture>
