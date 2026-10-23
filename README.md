@@ -11,7 +11,7 @@
 
 - **Frontend:** Next.js, React, TypeScript, Tailwind CSS, WebGL and three.js
 - **Backend and data:** Node.js, Express, Python, FastAPI, PostgreSQL, Drizzle, Redis
-- **CMS and platforms:** WordPress, Shopify, Webflow
+- **CMS and platforms:** WordPress, Shopify, Webflow, Sanity
 - **Search:** technical SEO, structured data, Core Web Vitals, Search Console, GA4
 - **Testing and delivery:** Playwright, Vitest, GitHub Actions, Vercel
 
